@@ -1,0 +1,4 @@
+/* Keep the data map's 460px canvas intact; the workspace scrolls instead. */
+.page-content > .panel:has(.map-canvas) {
+  flex-shrink: 0;
+}
